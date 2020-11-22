@@ -1,5 +1,7 @@
 {
   "name": "rxjs-project",
+  "description": "RxJS project created with CodeSpace",
+  "homepage": "https://brainpiper365.github.io/rxjs-BOIeYh/",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
