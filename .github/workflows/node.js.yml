@@ -25,5 +25,5 @@ jobs:
     - run: npm ci
     - run: npm install --save gh-pages
     - run: npm run build --if-present
-    - run: git remote set-url origin git@github.com:brainpiper365/repo.git
+    - run: git remote set-url origin git@github.com:brainpiper365/rxjs-BOIeYh.git
     - run: npm run deploy
