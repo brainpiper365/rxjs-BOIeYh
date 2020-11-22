@@ -5,8 +5,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scripts": {
-    "start": "webpack-dev-server --mode development"
+    "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
     "rxjs": "^5.5.7",
@@ -16,6 +17,7 @@
     "webpack-dev-server": "^3.1.1"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^6.3.2",
     "webpack-cli": "^3.1.1"
   }
 }
